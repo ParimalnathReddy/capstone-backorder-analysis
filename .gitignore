@@ -1,0 +1,106 @@
+####################################
+# DATA (DO NOT COMMIT)
+####################################
+Data/
+data/
+dataset/
+datasets/
+raw/
+processed/
+interim/
+external/
+
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+*.jsonl
+*.pkl
+*.joblib
+*.feather
+*.h5
+*.npy
+*.npz
+
+####################################
+# NOTEBOOK OUTPUTS
+####################################
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+####################################
+# MODELS / ARTIFACTS
+####################################
+models/
+checkpoints/
+artifacts/
+outputs/
+predictions/
+mlruns/
+runs/
+
+####################################
+# REPORTS & EXPORTS
+####################################
+reports/
+figures/
+plots/
+charts/
+*.pdf
+*.pptx
+*.docx
+
+####################################
+# SECRETS / ENV FILES
+####################################
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.crt
+secrets/
+credentials.json
+
+####################################
+# PYTHON
+####################################
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+####################################
+# VIRTUAL ENVIRONMENTS
+####################################
+venv/
+.venv/
+env/
+ENV/
+
+####################################
+# OS / EDITOR
+####################################
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+*.swp
+
+####################################
+# LOGS
+####################################
+logs/
+*.log
+
+####################################
+# TEMP / MISC
+####################################
+tmp/
+temp/
+.cache/
