@@ -24,20 +24,6 @@ This project addresses:
 
 ---
 
-## 🗂️ Repository Structure
-
-Capstone/
-├── capstone.ipynb
-├── Data/ # Ignored in GitHub (private data)
-│ └── 2008/
-│ └── backorder_2008.xlsx
-├── Problem_Statement/
-│ └── NSIN - Tesseract Problem 006500.pdf
-├── request.pdf
-├── Back Order Management solution project.pdf
-└── README.md
-
-
 
 > ⚠️ **Note:** The `Data/` directory is intentionally excluded from version control to protect sensitive and proprietary information.
 
