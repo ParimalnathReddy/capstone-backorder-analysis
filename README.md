@@ -1,5 +1,13 @@
 # Back Order Management Analytics & Prediction - Capstone Project
 
+## Recruiter Snapshot
+- Built an end-to-end backorder risk prediction pipeline on historical supply-chain data to improve proactive inventory planning.
+- Achieved **0.97 classification accuracy** with Random Forest; baseline Logistic Regression achieved **0.95**.
+- Identified top risk signals: **time_since_last_issue** (~0.44), **part_backorder_rate** (~0.20), and **location** (~0.06).
+- Added a regression layer for timing estimates with **MAE 21.11** and **R² 0.972** to support practical procurement decisions.
+
+---
+
 ## Project Overview
 This project analyzes historical back-order data to identify drivers of delayed fulfillment and support data-driven inventory planning. The goal is to transform operational data into actionable insights that reduce back orders, improve supplier responsiveness, and enable proactive procurement decisions.
 
